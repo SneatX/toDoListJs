@@ -22,26 +22,29 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2vw;
+    margin-top: 50px;
 }
+
+/*Entrada de las tareas*/
 
 main .section-input{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: white;
-    border-radius: 10px;
+    color: var(--color-background);
     overflow: hidden;
     font-size: 50px;
-    align-items: center;
-    color: var(--color-background);
+    border-radius: 10px;
     padding: 2%;
     box-shadow: 0px 0px 10px 1px #ffff;
+    margin-top: 25px;
 }
 
 main .section-input input{
     border-radius: 10px;
     border: 0;
-    height: 50px;
+    min-height: 50px;
     width: 100%;
     margin-right: 2%;
 }
@@ -50,3 +53,46 @@ main .section-input i:hover{
     color: #2a26258a;
     cursor: pointer;
 }
+
+/*Fin entrada de las tareas*/
+
+/*Tareas pendientes*/
+
+.section-tareas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.section-tareas ul{
+    list-style: none;
+    width: 100%;
+}
+
+.section-tareas ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background: #504f4f;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.section-tareas ul li i{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.section-tareas ul li i:hover{
+    cursor: pointer;
+    color: #2a2625b9;
+    font-size: 30px;
+}
+
+.section-tareas ul li p{
+    padding: 0 10px 0 10px;
+}
+
+
