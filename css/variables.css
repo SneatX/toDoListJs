@@ -1,3 +1,5 @@
 :root{
-    --primary-color: #ffff
+    --color-primary: #E5E8E8;
+    --color-background: #2A2625;
+    --font-primary : sans-serif
 }

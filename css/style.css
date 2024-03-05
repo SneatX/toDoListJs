@@ -1,1 +1,52 @@
 @import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-background);
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 450px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vw;
+}
+
+main .section-input{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 50px;
+    align-items: center;
+    color: var(--color-background);
+    padding: 2%;
+    box-shadow: 0px 0px 10px 1px #ffff;
+}
+
+main .section-input input{
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 100%;
+    margin-right: 2%;
+}
+
+main .section-input i:hover{
+    color: #2a26258a;
+    cursor: pointer;
+}
