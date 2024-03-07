@@ -10,20 +10,19 @@
 <body>
     <div class="container">
         <header>
-            <h1>¡Hola Santiago!</h1>
-            <div id="fecha">fecha</div>
+            <h1>¡Bienvenido!</h1>
+            <div id="fecha">|</div>
         </header>
     
         <main>
             <section class="section-input">
                 <input type="text" placeholder="Agregar tarea" id="input">
-                <i class="fas fa-plus-circle"></i>
+                <i class="fas fa-plus-circle" id="agregarTarea"></i>
             </section>
 
             <section class="section-tareas">
                 <h3>Tareas pendientes</h3>
-
-                <ul>
+                <ul id="tareasPendientes">
                     <li>
                         <i class="far fa-circle co"></i>
                         <p>Tarea pendiente</p>
@@ -42,6 +41,6 @@
     </div>
 
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>
