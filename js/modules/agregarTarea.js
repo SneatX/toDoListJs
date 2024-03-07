@@ -1,5 +1,10 @@
 import {tareas, input} from "./variables.js"
 
 export function agregarTarea(){
-    tareas.push(input.value)
+    let data = input.value
+    if(data.length > 0){
+        tareas.push(data)
+    }
+    
+    console.log(tareas)
 }
