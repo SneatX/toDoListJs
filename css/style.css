@@ -23,7 +23,18 @@ header{
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 25px;
 }
+
+header h1{
+    font-size: 5em;
+    margin-bottom: 25px;
+}
+
+header div{
+    font-size: 2em;
+}
+
 
 /*Entrada de las tareas*/
 
@@ -47,6 +58,8 @@ main .section-input input{
     min-height: 50px;
     width: 100%;
     margin-right: 2%;
+    font-size: .4em;
+    padding-left: 10px;
 }
 
 main .section-input i:hover{
@@ -70,6 +83,10 @@ main .section-input i:hover{
     width: 100%;
 }
 
+.section-tareas h3{
+    font-size: 1.5em;
+}
+
 .section-tareas ul li{
     display: flex;
     justify-content: space-between;
@@ -78,6 +95,12 @@ main .section-input i:hover{
     background: #504f4f;
     border-radius: 10px;
     padding: 10px;
+    transition: .5s;
+}
+
+.section-tareas ul li:hover{
+    padding: 20px 10px;
+    transition: .5s;
 }
 
 .section-tareas ul li i{
@@ -93,6 +116,7 @@ main .section-input i:hover{
 
 .section-tareas ul li p{
     padding: 0 10px 0 10px;
+    font-size: 1.3em;
 }
 
 

@@ -1,5 +1,6 @@
 //Variables para el manejo del DOM
-export const reloj = document.getElementById("fecha")
+export const reloj = document.getElementById("hora")
+export const calendario = document.getElementById("fecha")
 export const botonAgregar = document.getElementById("agregarTarea")
 export const input = document.getElementById("input")
 export const contenedorTareas = document.getElementById("tareasPendientes")
