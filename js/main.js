@@ -1,10 +1,8 @@
-import { botonAgregar, contenedorTareas, input } from "./modules/variables.js"
+import { botonAgregar, contenedorTareas, input} from "./modules/variables.js"
 import { actualizarReloj } from './modules/reloj.js';
 import { agregarTarea } from './modules/agregarTarea.js'; 
 import { eliminarTarea } from "./modules/eliminarTarea.js"
 import { tacharTarea } from "./modules/tacharTarea.js"
-
-
 
 botonAgregar.addEventListener("click", (event) => {
     event.stopPropagation()

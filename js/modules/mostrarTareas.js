@@ -1,7 +1,7 @@
-import {tareas, contenedorTareas, titleTareas} from "./variables.js"
+import {contenedorTareas, titleTareas} from "./variables.js"
+import { tareas } from "./variables.js"
 
 export function mostrarTareas(){
-    console.log(tareas)
     if(tareas.length > 0){
         titleTareas.textContent = `Tareas pendientes: ${tareas.length}`
     }
