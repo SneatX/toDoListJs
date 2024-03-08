@@ -2,7 +2,7 @@ import { actualizarReloj } from './modules/reloj.js';
 import { agregarTarea } from './modules/agregarTarea.js'; 
 import { botonAgregar } from "./modules/variables.js"
 
-botonAgregar.addEventListener("click", (e) => {
+botonAgregar.addEventListener("click", () => {
     agregarTarea()
 })
 
