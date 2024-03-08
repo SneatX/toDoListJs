@@ -23,7 +23,6 @@ contenedorTareas.addEventListener("click" , (event) => {
     else if(elementoClickeado.classList.contains("fa-circle")){
         tacharTarea(value)
     }
-
 })
 
 setInterval(actualizarReloj, 1000);
